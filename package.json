@@ -1,0 +1,28 @@
+{
+  "name": "custom-nft-contracts",
+  "version": "1.0.0",
+  "description": "Customised up-to-date NFT smart contracts adopting different token standards for gas optimisation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victortanzy123/Custom-NFT-Contracts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victortanzy123/Custom-NFT-Contracts/issues"
+  },
+  "homepage": "https://github.com/victortanzy123/Custom-NFT-Contracts#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "dotenv": "^16.0.0",
+    "ethereum-waffle": "^4.0.0-alpha.0",
+    "ethers": "^5.6.1"
+  }
+}
